@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #323A46;
+}
+header {
+    input {
+        width: 25rem;
+        text-align: center;
+        background: white;
+        border: 0;
+        border-radius: 10px;
+        height: 3rem;
+        outline: none;
+        font-size: 18px;
+    }
+    button {
+        border: 1px solid black;
+        width: 6rem;
+        background: black;
+        color: white;
+        cursor: pointer;
+    }
+    button:hover {
+        background: white;
+        color: black;
+        transition: 0.3s all;
+    }
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5rem;
+}
+#listsec {
+    ul {
+        .list {
+            .fa-trash-alt{
+                float: right;
+                cursor: pointer;
+                font-size: 15px;
+                padding-top: 5px;
+            }
+            height: 1rem;
+            width: 100%;
+            padding: 10px 4rem 23px 3rem;
+            border-bottom: 1px solid white;
+            margin-bottom: 1rem;
+            text-align: left;
+            color: white;
+            font-size: 20px;
+        }
+        margin: auto;
+        list-style: none;
+        width: 32rem;
+    }
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+}

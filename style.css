@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #323A46;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5rem;
+}
+
+header input {
+  width: 25rem;
+  text-align: center;
+  background: white;
+  border: 0;
+  border-radius: 10px;
+  height: 3rem;
+  outline: none;
+  font-size: 18px;
+}
+
+header button {
+  border: 1px solid black;
+  width: 6rem;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+header button:hover {
+  background: white;
+  color: black;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#listsec {
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#listsec ul {
+  margin: auto;
+  list-style: none;
+  width: 32rem;
+}
+
+#listsec ul .list {
+  height: 1rem;
+  width: 100%;
+  padding: 10px 4rem 23px 3rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+#listsec ul .list .fa-trash-alt {
+  float: right;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 5px;
+}
+/*# sourceMappingURL=style.css.map */
